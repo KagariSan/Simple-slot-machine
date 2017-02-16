@@ -1,83 +1,102 @@
+# Prerequisites
+
+*.d
+
+
+
 # Object files
+
 *.o
+
 *.ko
+
 *.obj
+
 *.elf
 
+
+
+# Linker output
+
+*.ilk
+
+*.map
+
+*.exp
+
+
+
 # Precompiled Headers
+
 *.gch
+
 *.pch
 
+
+
 # Libraries
+
 *.lib
+
 *.a
+
 *.la
+
 *.lo
 
+
+
 # Shared objects (inc. Windows DLLs)
+
 *.dll
+
 *.so
+
 *.so.*
+
 *.dylib
 
+
+
 # Executables
+
 *.exe
+
 *.out
+
 *.app
+
 *.i*86
+
 *.x86_64
+
 *.hex
 
+
+
 # Debug files
+
 *.dSYM/
 
-# =========================
-# Operating System Files
-# =========================
+*.su
 
-# OSX
-# =========================
+*.idb
 
-.DS_Store
-.AppleDouble
-.LSOverride
+*.pdb
 
-# Thumbnails
-._*
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Kernel Module Compile Results
 
-# Windows
-# =========================
+*.mod*
 
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+*.cmd
 
-# Folder config file
-Desktop.ini
+modules.order
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+Module.symvers
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+Mkfile.old
 
-# Windows shortcuts
-*.lnk
+dkms.conf
+data.bin
