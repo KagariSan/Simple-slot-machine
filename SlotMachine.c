@@ -409,7 +409,7 @@ void credit() {
 
 int main(int argc, char const *argv[]) {
   printf("%s\n", MSG_WELCOME);
-  // clear();
+  clear();
   highScoreTape = malloc(sizeof(struct Player) * MAX_HIGHSCORE_TAPE);
   savedPtr = malloc(sizeof(struct Player) * MAX_SAVED_FILE);
   playing = malloc(sizeof(struct Player) * 1);
